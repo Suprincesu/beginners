@@ -4,7 +4,8 @@ This problem tests your knowledge of Java arrays, and the ability to write simpl
 
 Basic version
 ---
-You are given an array of Strings as input. You need to arrange the Strings in ascending order *in the same array*. You can use temporary arrays. Also print the last element of the array and see if it is the greatest string or not.
+You are given an array of Strings as input. You need to arrange the Strings in ascending order *in the same array*.
+You can use temporary arrays. Also print the last element of the array and see if it is the greatest string or not.
 
 Advanced version
 ---
