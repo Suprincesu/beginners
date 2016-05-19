@@ -16,4 +16,5 @@ public class SimpleThing {
 }
 ```
 
-You need to arrange the objects in ascending order according to the property *nothingSpecial*, and *in the same array*. Again, you may use temporary arrays.
+You need to arrange the objects in ascending order according to the property *nothingSpecial*, and *in the same array*. Again,
+you may use temporary arrays.

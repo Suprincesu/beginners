@@ -6,7 +6,7 @@ package np.com.rts.internship.beginners;
 public class SimpleThing {
 
   public String nothingSpecial;
-  public int    stillNothingSpecial;
+  public int  stillNothingSpecial;
 
   public SimpleThing(String nothingSpecial, int stillNothingSpecial) {
     this.nothingSpecial = nothingSpecial;
