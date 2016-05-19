@@ -36,9 +36,9 @@ public class Main {
       character[i]=(char)ascii[i];
     }
     String str=String.valueOf(character);
-    System.out.println(str);
-
-    System.out.println(str.substring(21,24));
+   // System.out.println(str);
+    value= Double.parseDouble(str.substring(21,24));
+    System.out.println(value);
 
 
   }
