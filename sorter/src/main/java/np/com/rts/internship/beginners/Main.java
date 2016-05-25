@@ -19,7 +19,6 @@ public class Main {
 
   public Main() {
     // Write your code here
-
       List<String> list=new ArrayList<String>();
       for(String s:strings){
           list.add(s);

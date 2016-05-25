@@ -13,9 +13,8 @@ public class Main {
 
   public Main() {
     // Write your code here
-    StringBuilder sb=new StringBuilder(parseThis);
-    value= Double.parseDouble(sb.substring(21,24));
-    System.out.println(value);
+    String ar[]=parseThis.split("-");
+    System.out.println(ar[2]);
   }
 
   public static void main(String[] args) {
