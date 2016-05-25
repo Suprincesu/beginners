@@ -1,5 +1,7 @@
 package np.com.rts.internship.beginners;
 
+import com.mysql.jdbc.StringUtils;
+
 import java.io.BufferedReader;
 import java.io.StringReader;
 import java.util.*;
@@ -20,7 +22,7 @@ public class Main {
     int len=parseThis.length();
       char character[] = new char[len];
       for(int i=0;i<len;i++) {
-        character[i]=parseThis.charAt(i);
+          character[i] = parseThis.charAt(i);
       }
 
     int ascii[]=new int[character.length];
@@ -35,10 +37,16 @@ public class Main {
     for(int i=0;i<ascii.length;i++){
       character[i]=(char)ascii[i];
     }
+
     String str=String.valueOf(character);
-   // System.out.println(str);
-    value= Double.parseDouble(str.substring(21,24));
+    System.out.println(str);
+    String[] temp= str.split("\\s+");
+    String temp1=temp[1];
+    String[] temp3=temp1.split("-");
+    value=Double.parseDouble(temp3[1]);
+
     System.out.println(value);
+
 
 
   }
